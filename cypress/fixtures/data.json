@@ -1,0 +1,20 @@
+{
+    "boards": {
+        "toDoBoard" : "[data-id='board_72147657886']",
+        "inProgressBoard" : "[data-id='board_17834249418']",
+        "inQaBoard" : "[data-id='board_33267134028']",
+        "doneBoard" : "[data-id='board_70489339574']"
+    },
+
+    "inQaBoard" : {
+        "boardTitle" : "[data-cy=board-title]",
+        "listTitle" : "[data-cy=list-name]",
+        "firstTaskTitle" : ":nth-child(1) > .container > [data-cy=task-title]",
+        "secondTaskTitle" : ":nth-child(2) > .container > [data-cy=task-title]",
+        "thirdTaskTitle" : "[data-cy=tasks-list] > :nth-child(3)"
+    },
+
+    "starredBoard" : {
+        "boardTitle" : ":nth-child(2) > .board_item"
+    }
+}

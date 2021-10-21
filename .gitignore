@@ -8,3 +8,5 @@ app/public/uploaded/*.png
 app/public/uploaded/*.jpg
 app/public/css
 app/public/js
+.DS_Store
+cypress/.DS_Store
